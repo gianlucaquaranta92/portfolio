@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-block-start: 50px;
+  font-size: 70px;
+  font-size: bold;
+}
+
+h3 {
+  margin-block-start: 50px;
+  font-size: 40px;
+  font-size: bold;
+}
+p {
+  font-size: 17px;
+  color: rgb(105, 105, 105);
+
+  line-height: 185%;
+  letter-spacing: 0.05em;
+}
+
+.git:hover {
+  background-color: rgb(95, 212, 228) !important;
+  transition: 0.7s;
+}
+@media (min-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+}
