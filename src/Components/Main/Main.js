@@ -18,7 +18,7 @@ export function Main() {
           className="col-xl-5  col-lg-12 col-md-12  col-sm-12 title"
         >
           <h2 style={{ fontSize: 30, marginLeft: 5 }}>
-            <strong>Hi</strong>! I'm
+            <strong>Hi</strong>, I'm
           </h2>
           <h1 style={{ color: "", marginTop: -10, fontSize: "" }}>
             <strong> Gianluca Quaranta</strong>
