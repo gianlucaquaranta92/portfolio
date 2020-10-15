@@ -18,11 +18,23 @@ export function BlackBar() {
           paddingBottom: 80
         }}
       >
-        <div className="col-xl" style={{ margin: 20 }}>
-          email: gianlucaquaranta92@gmail.com
+        <div className="col-xl " style={{ margin: 20 }}>
+          <a
+            className="contact"
+            style={{ textDecoration: "none", color: "white" }}
+            href="mailto:gianlucaquaranta92@gmail.com"
+          >
+            gianlucaquaranta92@gmail.com
+          </a>
         </div>
-        <div className="col-xl" style={{ margin: 20 }}>
-          tel:+46 076-047 70 38
+        <div className="col-xl " style={{ margin: 20 }}>
+          <a
+            className="contact"
+            style={{ textDecoration: "none", color: "white" }}
+            href="tel:"
+          >
+            +46 076-047 70 38
+          </a>
         </div>
         <div className="col-xl" style={{ margin: 20 }}>
           {" "}

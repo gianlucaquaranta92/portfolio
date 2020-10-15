@@ -22,7 +22,7 @@ export function BlackBar() {
           <a
             className="contact"
             style={{ textDecoration: "none", color: "white" }}
-            href="mailto:"
+            href="mailto:gianlucaquaranta92@gmail.com"
           >
             gianlucaquaranta92@gmail.com
           </a>

@@ -19,7 +19,10 @@ export function Projects() {
           }}
         >
           <div className="view view-first">
-            <img alt="" src="https://rel.ink/gDGqKv" />
+            <img
+              alt=""
+              src="https://cdn.discordapp.com/attachments/165746589309206528/748582301411311647/sfera.png"
+            />
             <div className="mask">
               <h2>Pokedex</h2>
               <p>
@@ -35,7 +38,10 @@ export function Projects() {
             style={{ borderColor: "rgba(0, 0, 0, 0.9)" }}
             className="view view-first"
           >
-            <img alt="" src="https://rel.ink/gApReB" />
+            <img
+              alt=""
+              src="https://www.wikibit.it/wp-content/uploads/2017/04/cosa-significa-short-url.png"
+            />
             <div className="mask">
               <h2>Shortly</h2>
               <p>An URL shortening API landing page.</p>
@@ -48,7 +54,7 @@ export function Projects() {
             <img
               style={{ marginTop: -1, height: 320, width: 900 }}
               alt=""
-              src="https://rel.ink/gxExVQ"
+              src="https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/background_search_desktop.jpg"
             />
             <div className="mask">
               <h2>Ravenous</h2>
