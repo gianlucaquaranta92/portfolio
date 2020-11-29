@@ -9,13 +9,15 @@ export function Description() {
       <div className="col-10 col-xl-8 description">
         <h1 style={{ marginTop: 150, marginBottom: 50 }}>Santa's Factory</h1>
         <p style={{ marginBottom: 50 }}>
-          Santa's Factory is a Project I built after I saw a cool work
-          advertisement.
-          <br /> Was needed a web developer to build up educational videogames
-          with Javascript, in a school environment.
-          <br />
-          Santa's Factory is a 2D videogame focused on addition, with just the
+          Santa's Factory is a 2D videogame focused on additions, with just the
           right amount of action and logic.
+          <br />
+          The player will control a workshop elf to deliver as many presents as
+          he can into the right tubes in less than 60 seconds.
+          <br />
+          There will be random additions at the bottom of the screen, the elf
+          will pick up the presents from the big present's bag and then deliver
+          it to the tube with the right solution.
         </p>
         <a
           style={{ textDecoration: "none", marginLeft: 30 }}
