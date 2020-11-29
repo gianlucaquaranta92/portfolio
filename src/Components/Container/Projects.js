@@ -71,6 +71,23 @@ export function Projects() {
             </Link>
           </div>
         </div>
+        <div className="view view-first">
+          <img
+            alt=""
+            src="https://i.imgur.com/CpvvCLJ.png"
+            style={{ width: 300, height: 300 }}
+          />
+          <div className="mask">
+            <h2>Santa's Factory</h2>
+            <p>
+              A 2D action game based on mathematical additions in a Christmas
+              environment.
+            </p>
+            <Link to="/portfolio/santas" className="info">
+              VIEW
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

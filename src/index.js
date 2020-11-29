@@ -8,6 +8,7 @@ import { Shortly } from "./Screens/Shortly";
 import { Pokedex } from "./Screens/Pokedex";
 import { Ravenous } from "./Screens/Ravenous";
 import ScrollToTop from "./ScrollToTop";
+import { Santas } from "./Screens/Santas";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         <Route path="/portfolio/Ravenous">
           <Ravenous />
         </Route>
+        <Route path="/portfolio/santas">
+          <Santas />
+        </Route>
+
         <Route path="/">
           <Home />
         </Route>
