@@ -40,11 +40,11 @@ export function About() {
             my girlfriend to this beautiful country called Sweden.
             <br />
             After many years and different jobs, I realized that I wasn't
-            satisfied and so a few months ago I started studying Codecademy to
+            satisfied and so an year ago I started studying on Codecademy to
             become a web developer. <br />
             <br />
             I'm enjoying what I learn and at the moment I'm focusing a lot on
-            React and Bootstrap.
+            Phaser 3.
             <br />
             I'm a very versatile person and a quick learner.
             <br /> I'm looking for a place where I can grow and improve my
