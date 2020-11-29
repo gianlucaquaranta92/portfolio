@@ -24,14 +24,18 @@ export function Skills() {
         }}
       >
         <div style={{ margin: "-20px 10px -20px 10px" }}>
-          <li>HTML & CSS</li>
-          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </div>
         <div style={{ margin: "-20px 10px -20px 10px" }}>
+          <li>Javascript</li>
           <li>React</li>
-          <li>Bootstrap</li>
         </div>
 
+        <div style={{ margin: "-20px 10px -20px 10px" }}>
+          <li>Phaser</li>
+          <li>Bootstrap</li>
+        </div>
         <div style={{ margin: "-20px 10px -20px 10px" }}>
           <li>Illustrator</li>
           <li>Photoshop</li>
