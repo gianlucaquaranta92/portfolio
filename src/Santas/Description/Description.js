@@ -29,7 +29,7 @@ export function Description() {
           style={{
             boxShadow: "0px 10px 15px 2px rgb(120, 120, 120)",
             marginBottom: 150,
-            width: "100%",
+            width: "85%",
             marginTop: 100
           }}
         >
