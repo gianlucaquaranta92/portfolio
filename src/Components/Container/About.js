@@ -44,7 +44,7 @@ export function About() {
             become a web developer. <br />
             <br />
             I'm enjoying what I learn and at the moment I'm focusing a lot on
-            Phaser 3.
+            React.
             <br />
             I'm a very versatile person and a quick learner.
             <br /> I'm looking for a place where I can grow and improve my
