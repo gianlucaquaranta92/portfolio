@@ -27,6 +27,10 @@ export function Description() {
         >
           <h2>View Site</h2>
         </a>
+        <p style={{ color: "red", opacity: 0.5 }}>
+          *The Shorten button doesn't work at the moment because rel.ink doesn't
+          provide the API anymore.{" "}
+        </p>
         <div
           style={{
             boxShadow: "0px 10px 15px 2px rgb(120, 120, 120)",
