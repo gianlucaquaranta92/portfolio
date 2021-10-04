@@ -43,9 +43,11 @@ export function About() {
             satisfied and so I started studying on Codecademy to become a web
             developer <br />
             <br />
-            Right now i work as web developer in Norrköping. I build websites
-            and E-commerce using Wordpress and Woocommerce, and sometimes i make
-            up the design of all the website.
+            In March 2021 I started my current job as a web developer at Webbson
+            AB in Norrköping.
+            <br />
+            Since then it's been a continued improvement of my soft skills and
+            knowledge regarding WordPress and PHP.
           </p>
         </div>
       </div>
