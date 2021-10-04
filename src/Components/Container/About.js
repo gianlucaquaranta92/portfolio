@@ -40,8 +40,8 @@ export function About() {
             my girlfriend to this beautiful country called Sweden.
             <br />
             After many years and different jobs, I realized that I wasn't
-            satisfied and so I started studying on Codecademy to become a web
-            developer <br />
+            satisfied and so in January 2020 I started studying on Codecademy to
+            become a web developer <br />
             <br />
             In March 2021 I started my current job as a web developer at Webbson
             AB in Norrköping.
