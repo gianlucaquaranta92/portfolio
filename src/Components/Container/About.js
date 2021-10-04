@@ -40,15 +40,12 @@ export function About() {
             my girlfriend to this beautiful country called Sweden.
             <br />
             After many years and different jobs, I realized that I wasn't
-            satisfied and so an year ago I started studying on Codecademy to
-            become a web developer. <br />
+            satisfied and so I started studying on Codecademy to become a web
+            developer <br />
             <br />
-            I'm enjoying what I learn and at the moment I'm focusing a lot on
-            React.
-            <br />
-            I'm a very versatile person and a quick learner.
-            <br /> I'm looking for a place where I can grow and improve my
-            skills while working and contributing to new projects.
+            Right now i work as web developer in Norrköping. I build websites
+            and E-commerce using Wordpress and Woocommerce, and sometimes i make
+            up the design of all the website.
           </p>
         </div>
       </div>

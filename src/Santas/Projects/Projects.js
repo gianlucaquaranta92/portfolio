@@ -21,55 +21,6 @@ export function Projects() {
           <div className="view view-first">
             <img
               alt=""
-              src="https://cdn.discordapp.com/attachments/165746589309206528/748582301411311647/sfera.png"
-            />
-            <div className="mask">
-              <h2>Pokedex</h2>
-              <p>
-                The reproduction of the Pokèmon's encyclopedia wich store all
-                the existing Pokèmons.
-              </p>
-              <Link to="/portfolio/pokedex" className="info">
-                VIEW
-              </Link>
-            </div>
-          </div>
-          <div
-            style={{ borderColor: "rgba(0, 0, 0, 0.9)" }}
-            className="view view-first"
-          >
-            <img
-              alt=""
-              src="https://www.wikibit.it/wp-content/uploads/2017/04/cosa-significa-short-url.png"
-            />
-            <div className="mask">
-              <h2>Shortly</h2>
-              <p>An URL shortening API landing page.</p>
-              <Link to="/portfolio/shortly" className="info">
-                VIEW
-              </Link>
-            </div>
-          </div>
-          <div className="view view-first">
-            <img
-              style={{ marginTop: -1, height: 320, width: 900 }}
-              alt=""
-              src="https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/background_search_desktop.jpg"
-            />
-            <div className="mask">
-              <h2>Ravenous</h2>
-              <p>
-                An App that allows the users to find any business all over the
-                the world.
-              </p>
-              <Link to="/portfolio/ravenous" className="info">
-                VIEW
-              </Link>
-            </div>
-          </div>
-          <div className="view view-first">
-            <img
-              alt=""
               src="https://i.imgur.com/CpvvCLJ.png"
               style={{ width: 300, height: 300 }}
             />

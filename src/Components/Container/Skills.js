@@ -8,8 +8,9 @@ export function Skills() {
         </h2>
         <p>
           Through my studies, I've gained a good understanding of computer
-          science and web development concepts, and the advertising graphic's
-          degree helps me a lot to work with the design of the projects.
+          science and web development concepts,and from my current work
+          experience, I learned new languages such as PHP and new systems such
+          as WordPress and woocommerce.
         </p>
       </div>
       <div
@@ -24,21 +25,17 @@ export function Skills() {
         }}
       >
         <div style={{ margin: "-20px 10px -20px 10px" }}>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>HTML & CSS</li>
+          <li>Javascript</li>
         </div>
         <div style={{ margin: "-20px 10px -20px 10px" }}>
-          <li>Javascript</li>
+          <li>SCSS</li>
           <li>React</li>
         </div>
 
         <div style={{ margin: "-20px 10px -20px 10px" }}>
-          <li>Phaser</li>
-          <li>Bootstrap</li>
-        </div>
-        <div style={{ margin: "-20px 10px -20px 10px" }}>
-          <li>Illustrator</li>
-          <li>Photoshop</li>
+          <li>PHP</li>
+          <li>WordPress</li>
         </div>
       </div>
     </div>
