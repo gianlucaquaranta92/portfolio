@@ -43,8 +43,8 @@ export function About() {
             satisfied and so in January 2020 I started studying on Codecademy to
             become a web developer <br />
             <br />
-            In March 2021 I started my current job as a web developer at Webbson
-            AB in Norrköping.
+            In March 2022 I started my current job as a web developer at Tankbar
+            AB in Nyköping.
             <br />
             Since then it's been a continued improvement of my soft skills and
             knowledge regarding WordPress and PHP.
