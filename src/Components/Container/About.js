@@ -7,6 +7,7 @@ export function About() {
         className="row "
         style={{
           marginTop: "2rem",
+          marginBottom: "4rem",
         }}
       >
         <div
@@ -15,7 +16,7 @@ export function About() {
             width: "100%",
           }}
         >
-          <h3 style={{ marginBottom: 50 }}>
+          <h3 style={{ marginBottom: "1rem" }}>
             <strong>About Me</strong>
           </h3>
           <p style={{ margin: 0, color: "" }}>

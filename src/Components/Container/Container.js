@@ -23,8 +23,9 @@ export function Container() {
         >
           <ProvideValues />
           <Projects />
-          <About />
           <Skills />
+          <About />
+        
         </div>
 
         <div className="col " />

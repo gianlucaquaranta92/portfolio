@@ -10,9 +10,16 @@ h1 {
 }
 
 h3 {
-  margin-block-start: 50px;
-  font-size: 40px;
+  font-size: 32px;
+  margin-bottom: .5rem;
 }
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
 p {
   font-size: 16px;
   color: rgb(105, 105, 105);
@@ -21,22 +28,53 @@ p {
 }
 
 h1,h2,h3,h4,h5    {
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+height: 32px;
+width: 32px;
+margin-bottom: 1rem;
+}
+
+.icon svg {
+  height: 100%;
+  width: 100%;
+
+}
+.puffsContainer {
+display: flex;
+margin-top: 2.5rem;
+gap: 2rem;
+
 }
 
 .singleValuePuff{
   background: #F7F7FA;
-  border-radius: 5%;
-  padding: 1rem;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 32%;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .git:hover {
   background-color: rgb(95, 212, 228) !important;
   transition: 0.7s;
 }
-@media (min-width: 767px) {
-  p {
-    font-size: 16px;
-  }
+@media (max-width: 875px) {
+
+
+  .puffsContainer {
+  flex-wrap: wrap;
+    
+    }
+
+    .singleValuePuff{
+     width: 100%;
+     padding: 1rem;
+    }
 }
+
+

@@ -5,9 +5,9 @@ export function Projects() {
   return (
     <div id="projects">
       <div>
-        <h2 style={{ marginTop: 100, marginBottom: 50 }}>
-          <strong>What I've been working on</strong>
-        </h2>
+        <h3 style={{ marginTop: 100, marginBottom: "1rem" }}>
+          What I've been working on
+        </h3>
         <p style={{ marginBottom: 70 }}>
           I like to stay busy and always have a project in the works. Take a
           look at some of the applications, projects, and web pages I've
@@ -19,7 +19,6 @@ export function Projects() {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-around",
-          marginBottom: 100,
         }}
       >
         <div className="view view-first">

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .links a {
   animation: down 1s normal;
   text-decoration: none !important;
