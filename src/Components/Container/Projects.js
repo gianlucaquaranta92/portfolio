@@ -10,7 +10,7 @@ export function Projects() {
         </h2>
         <p style={{ marginBottom: 70 }}>
           I like to stay busy and always have a project in the works. Take a
-          look at some of the applications, projects, and companies I've
+          look at some of the applications, projects, and web pages I've
           dedicated my time to.
         </p>
       </div>
@@ -19,7 +19,7 @@ export function Projects() {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-around",
-          marginBottom: 100
+          marginBottom: 100,
         }}
       >
         <div className="view view-first">
@@ -35,6 +35,23 @@ export function Projects() {
               environment.
             </p>
             <Link to="/portfolio/santas" className="info">
+              VIEW
+            </Link>
+          </div>
+        </div>
+        <div className="view view-first">
+          <img
+            alt=""
+            src="https://i.ibb.co/9rv7fL6/logo-artkampen.png"
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+          <div className="mask">
+            <h2>Artkampen</h2>
+            <p>
+              A 2D action game based on mathematical additions in a Christmas
+              environment.
+            </p>
+            <Link to="/portfolio/shortly" className="info">
               VIEW
             </Link>
           </div>

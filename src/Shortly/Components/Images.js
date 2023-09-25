@@ -26,7 +26,7 @@ export function Images() {
           className="shadow"
           style={{
             width: "50%",
-            marginTop: 50
+            marginTop: 50,
           }}
         >
           <img

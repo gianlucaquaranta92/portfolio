@@ -13,16 +13,17 @@ export function Problems() {
       <div className=" col-xl-6 col-lg-6">
         <h3 style={{ marginBottom: 50 }}>Problems and Thought Process</h3>
         <p>
-          The user should be able to view the optimal layout for the site
-          depending on their device's screen size and Bootstrap helped me a lot
-          with that.
+          the achievements get registered in custom fields related to the user
+          profile, and they are based on the fish catch registration by the
+          user. There are three different fields to fill in the registration.
           <br />
-          The hardest part was making the list of the shortened links because i
-          was not sure how to build it without having the same link logged over
-          and over.
-          <br /> Was also the first time I worked with many things like the
-          Bootstrap Grid System and smaller things like error messages and bar
-          menu.
+          <br />
+          Based on those inputs i had to update the custom fields of the
+          users,until they reach the requirements of the objectives in order to
+          unlock the achievements medals and prizes connected to it.
+          <br />
+          The workload was quite significant so I had to methodically plan out
+          all the logic phases to get an efficient step-by-step workflow.
         </p>
       </div>
     </div>

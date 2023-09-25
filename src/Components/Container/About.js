@@ -4,32 +4,15 @@ export function About() {
   return (
     <div>
       <div
-        className="row shadow-lg "
+        className="row "
         style={{
-          color: "",
-          height: "",
-          backgroundColor: "white",
-          padding: "80px 20px ",
-          marginTop: -50,
-          borderRadius: 3
+          marginTop: "2rem",
         }}
       >
         <div
-          className="col-xl-5 "
-          style={{ backgroundImage: "", textAlign: "center" }}
-        >
-          <img
-            className="picture"
-            style={{ width: 350, marginBottom: 50 }}
-            alt=""
-            src="https://cdn.discordapp.com/attachments/165746589309206528/757588674434170920/undraw_project_completed_w0oq.png"
-            id="about"
-          />
-        </div>
-        <div
           className=" col-xl-7 "
           style={{
-            width: "100%"
+            width: "100%",
           }}
         >
           <h3 style={{ marginBottom: 50 }}>

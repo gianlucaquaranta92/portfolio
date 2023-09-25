@@ -5,28 +5,49 @@ export function Main() {
     <div
       className="container-fluid "
       style={{
-        backgroundColor: ""
+        backgroundColor: "",
 
         /* backgroundImage:
           "URL(https://cdn.discordapp.com/attachments/165746589309206528/746685102175813693/pattern_background3.png)"*/
       }}
     >
-      <div style={{ marginTop: 30 }} className="row">
+      <div style={{ marginTop: 20 }} className="row">
         <div className="col" />
         <div
           style={{ margin: "auto" }}
           className="col-xl-5  col-lg-12 col-md-12  col-sm-12 title"
         >
-          <h2 style={{ fontSize: 30, marginLeft: 5 }}>
-            <strong>Hi</strong>, I'm
+          <h2 style={{ fontSize: 24, marginBottom: 22 }}>
+            Hej there, I'm Gianluca Quaranta
           </h2>
-          <h1 style={{ color: "", marginTop: -10, fontSize: "" }}>
-            <strong> Gianluca Quaranta</strong>
+          <h1
+            style={{
+              color: "",
+              marginTop: -10,
+              marginBottom: 16,
+              fontSize: 38,
+              lineHeight: 1.4,
+              fontWeight: 600,
+            }}
+          >
+            -a Web developer with a deep passion for Front-End.
           </h1>
-          <span style={{ fontSize: 35 }}>Self taught Junior web </span>
-          <span style={{ color: "coral", fontSize: 35, fontWeight: "bold" }}>
+          <span style={{ fontSize: 16, opacity: .5 }}>
+            Armed with sharp problem-solving abilities and a proactive approach
+            to front-end challenges
+          </span>
+          <div style={{ marginTop: 32, marginBottom: 40 }}>
+            <a style={{ marginRight: 16 }} className="buttonBlack" href="">
+              Contact me
+            </a>
+            <a className="buttonWhite" href="">
+              See my work
+            </a>
+          </div>
+          {/*}  <span style={{ color: "coral", fontSize: 35, fontWeight: "bold" }}>
             developer
           </span>
+          {*/}
         </div>
 
         <div
