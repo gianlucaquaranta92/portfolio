@@ -78,3 +78,38 @@ gap: 2rem;
 }
 
 
+.header {
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 0 0  black;
+  transition-duration: .3s;
+  position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.front-page {
+
+
+}
+
+/* CSS */
+.header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff; 
+  box-shadow: 0px -11px 18px black;
+}
+
+
+.logo a{
+  color: #1E1E1E;
+  }
+
+.logo a:hover{
+text-decoration: none;
+color: #1E1E1E;
+}

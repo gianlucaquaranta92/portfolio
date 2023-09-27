@@ -3,17 +3,17 @@ import React from "react";
 export function Problems() {
   return (
     <div className="row ">
-      <div className=" col-xl-6 col-lg-6">
+      <div style={{display: "flex", alignItems:"center"}} className=" col-xl-6 col-lg-6">
         <img
           style={{ width: "100%" }}
-          src="https://cdn.discordapp.com/attachments/165746589309206528/756113156618846218/undraw_goals_w8tw.png"
+          src="https://i.ibb.co/YRHcFNT/artkampen-gif.gif"
           alt=""
         />
       </div>
       <div className=" col-xl-6 col-lg-6">
         <h3 style={{ marginBottom: 50 }}>Problems and Thought Process</h3>
         <p>
-          the achievements get registered in custom fields related to the user
+          The achievements get registered in custom fields related to the user
           profile, and they are based on the fish catch registration by the
           user. There are three different fields to fill in the registration.
           <br />

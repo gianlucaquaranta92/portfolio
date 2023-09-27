@@ -23,7 +23,7 @@ export function ProvideValues() {
         </h3>
         <div>
           <div style={{ maxWidth: 950, opacity: 0.5 }}>
-            I have extensive professional experience working with WordPress and
+            I have professional experience working with WordPress and
             WooCommerce, in designing, developing and maintaining new themes or
             enhancing existing ones.I also have a background in React, and when
             it comes to learning new skills, I'm quite fast at it.
@@ -67,10 +67,9 @@ export function ProvideValues() {
               </div>
               <h4>Front-End Solution Enthusiast</h4>
               <div style={{ opacity: 0.5 }}>
-                I thrive in the intricate world of front-end development,
-                constantly seeking innovative solutions to complex challenges.
-                Finding and applying these solutions truly excites me
-                (especially when working with JS).
+                I thrive in the intricate world of front-end development, and I
+                really enjoy finding solutions for tough problems. (especially
+                when working with JS).
               </div>
             </div>
             <div className="singleValuePuff">

@@ -6,6 +6,7 @@ export function Main() {
       className="container-fluid "
       style={{
         backgroundColor: "",
+        marginTop: "5rem",
 
         /* backgroundImage:
           "URL(https://cdn.discordapp.com/attachments/165746589309206528/746685102175813693/pattern_background3.png)"*/
@@ -30,9 +31,9 @@ export function Main() {
               fontWeight: 600,
             }}
           >
-            -a Web developer with a deep passion for Front-End.
+            -a Web developer with a deep passion for Front-End
           </h1>
-          <span style={{ fontSize: 16, opacity: .5 }}>
+          <span style={{ fontSize: 16, opacity: 0.5 }}>
             Armed with sharp problem-solving abilities and a proactive approach
             to front-end challenges
           </span>

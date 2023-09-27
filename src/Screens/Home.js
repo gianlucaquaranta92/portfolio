@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Bar } from "../Components/Bars/Bar";
+import { Header } from "../Components/Header";
 import { Main } from "../Components/Main/Main";
 import { Container } from "../Components/Container/Container";
 import { BlackBar } from "../Components/Bars/BlackBar";
@@ -8,13 +9,13 @@ import { BlackBar } from "../Components/Bars/BlackBar";
 export function Home() {
   return (
     <div
-      className=""
+      className="front-page"
       style={{
         backgroundColor: "hsla(186, 90%, 80%, 0.2)",
-        overflow: "hidden"
+        overflow: "hidden",
       }}
     >
-      <Bar />
+      <Header />
       <Main />
       <div>
         <Container />

@@ -1,17 +1,21 @@
 import React from "react";
 import { Problems } from "..//Problems";
 import "./Description.css";
+import { Header } from "../../../Components/Header/";
 
 export function Description() {
   return (
     <div className="row ">
-      <div className="col-1 col-xl-2"></div>
-      <div className="col-10 col-xl-8 description">
-        <h1 style={{ marginTop: 150, marginBottom: 50 }}>Shortly</h1>
+      <Header />
+      <div className="col"></div>
+      <div className="col-10  col-xl-9 col-lg-11 col-md-11 col-sm-10 description">
+        <h1 style={{ marginTop: 150, marginBottom: 50 }}>Artkampen</h1>
         <p style={{ marginBottom: 50 }}>
-          Artkampen is a Web App in which users can earn medals by meeting
-          objectives. They can also personalize their profiles with dynamic
-          avatars and profile backgrounds.
+          Artkampen is a Web App where users compete to win the season's
+          tournament by catching the most fish in Sweden. Users can earn medals
+          by meeting objectives and personalize their profiles with dynamic
+          avatars and background images unlocked through achieving these
+          objectives.
           <br />I built the front end and managed the majority of the logic
           behind the achievements and objectives.
         </p>
@@ -30,7 +34,7 @@ export function Description() {
             marginBottom: 150,
             width: "100%",
             marginTop: 100,
-            borderRadius: "22px",
+            borderRadius: "30px",
           }}
         >
           <img
@@ -41,20 +45,18 @@ export function Description() {
         </div>
         <h3 style={{ marginBottom: 50 }}>Project Purpose and Goal</h3>
         <p style={{ marginBottom: 50 }}>
-          The brief from Sportfiskarna for this year's Art competition was to
+          The goal for Sportfiskarna for this year's competition was to
           introduce competitions within the competition, aiming to encourage,
           inspire, and motivate all participants. Last year, the focus was
           primarily on the top 3, resulting in some participants gaining a
           significant lead.
-          <br /> The keyword was gamification. The challenge was to find tasks
-          that would be suitable for all geographical areas in Sweden and to
-          allow participants, for instance, to challenge their closest friends
-          in various mini-challenges.
           <br />
+          My goal as a developer was to create a system that would take care of
+          all the logic behind the achievements based on the user type of catch.
         </p>
         <Problems />
       </div>
-      <div className="col-1 col-xl-2"></div>
+      <div className="col"></div>
     </div>
   );
 }

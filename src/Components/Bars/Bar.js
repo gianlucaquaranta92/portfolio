@@ -3,7 +3,7 @@ import { BarMenu } from "./Barmenu";
 
 export function Bar() {
   return (
-    <div>
+
       <div className="row effect">
         <div className="col" />
 
@@ -33,6 +33,5 @@ export function Bar() {
 
         <div style={{}} className="col" />
       </div>
-    </div>
   );
 }

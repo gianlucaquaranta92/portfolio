@@ -2,14 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.links a {
+.links .header-links {
   animation: down 1s normal;
   text-decoration: none !important;
   color: rgb(105, 105, 105);
   display: inline-block;
   position: relative;
 }
-.links a:after {
+.links .header-links:after {
   margin-top: -5px;
   content: "";
   height: 2px;
@@ -18,12 +18,16 @@ html {
   transition: 0.3s ease 0s, 0.3s ease 0s;
   width: 0;
 }
-.links a:hover {
+.links .header-links:hover {
   transition: 0.5s;
   color: black;
 }
-.links a:hover:after {
+.links .header-links:hover:after {
   width: 100%;
+}
+
+.links h3{
+margin-bottom: 0;
 }
 
 
@@ -100,7 +104,7 @@ h3 {
 }
 li {
   margin: 40px 0px;
-  font-weight: bold;
+  font-weight: 600;
   list-style: none;
 }
 
