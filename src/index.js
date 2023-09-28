@@ -15,7 +15,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Switch>
-        <Route path="/portfolio/shortly">
+        <Route path="/portfolio/artkampen">
           <Shortly />
         </Route>
         <Route path="/portfolio/Pokedex">

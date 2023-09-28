@@ -11,7 +11,7 @@ export function Projects() {
         <p style={{ marginBottom: 70 }}>
           I like to stay busy and always have a project in the works. Take a
           look at some of the applications, projects, and web pages I've
-          dedicated my time to.
+          dedicated my time to. I will be uploading more projects soon!
         </p>
       </div>
       <div
@@ -47,10 +47,10 @@ export function Projects() {
           <div className="mask">
             <h2>Artkampen</h2>
             <p>
-              A 2D action game based on mathematical additions in a Christmas
-              environment.
+              App hosting seasonal fishing tournaments with medals, avatars, and
+              profile customization.
             </p>
-            <Link to="/portfolio/shortly" className="info">
+            <Link to="/portfolio/artkampen" className="info">
               VIEW
             </Link>
           </div>

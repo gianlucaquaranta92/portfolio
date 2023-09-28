@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { BarMenu } from "./Bars/Barmenu";
 
 export function Header() {
   const [isSticky, setSticky] = useState(false);
@@ -42,17 +43,19 @@ export function Header() {
             </a>
           </div>
           <div style={{ gap: "2rem", display: "flex" }}>
-            <a className="header-links" href="#about">
+            <a className="header-links" href="/#about">
               <h3 style={{ fontWeight: 600, fontSize: 18 }}>About</h3>
             </a>
-            <a className="header-links" href="#projects">
+            <a className="header-links" href="/#projects">
               <h3 style={{ fontWeight: 600, fontSize: 18 }}>Projects</h3>
             </a>
-            <a className="header-links" href="#contact">
+            <a className="header-links" href="/#contact">
               <h3 style={{ fontWeight: 600, fontSize: 18 }}>Contact</h3>
             </a>
           </div>
+     
         </div>
+        <BarMenu />
       </div>
       <div className="col"></div>
     </div>

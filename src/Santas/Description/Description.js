@@ -1,12 +1,14 @@
 import React from "react";
 import { Problems } from "..//Problems";
 import "./Description.css";
+import { Header } from "../../Components/Header";
 
 export function Description() {
   return (
     <div className="row ">
-      <div className="col-1 col-xl-2"></div>
-      <div className="col-10 col-xl-8 description">
+      <Header></Header>
+      <div className="col"></div>
+      <div className="col-10  col-xl-9 col-lg-11 col-md-11 col-sm-10 description">
         <h1 style={{ marginTop: 150, marginBottom: 50 }}>Santa's Factory</h1>
         <p style={{ marginBottom: 50 }}>
           Santa's Factory is a 2D videogame focused on additions, with just the
@@ -55,7 +57,7 @@ export function Description() {
         </p>
         <Problems />
       </div>
-      <div className="col-1 col-xl-2"></div>
+      <div className="col"></div>
     </div>
   );
 }

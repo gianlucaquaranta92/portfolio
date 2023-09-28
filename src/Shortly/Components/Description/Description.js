@@ -1,7 +1,7 @@
 import React from "react";
 import { Problems } from "..//Problems";
 import "./Description.css";
-import { Header } from "../../../Components/Header/";
+import { Header } from "../../../Components/Header";
 
 export function Description() {
   return (

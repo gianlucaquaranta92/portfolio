@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Projects.css";
 import { Link } from "react-router-dom";
 
@@ -15,22 +16,25 @@ export function Projects() {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-around",
-            marginBottom: 100
+            marginBottom: 100,
           }}
         >
-          <div className="view view-first">
+          <div
+            style={{ borderColor: "rgba(0, 0, 0, 0.9)" }}
+            className="view view-first"
+          >
             <img
+              style={{ objectFit: "contain" }}
               alt=""
-              src="https://i.imgur.com/CpvvCLJ.png"
-              style={{ width: 300, height: 300 }}
+              src="https://i.ibb.co/9rv7fL6/logo-artkampen.png"
             />
             <div className="mask">
-              <h2>Santa's Factory</h2>
+              <h2>Artkampen</h2>
               <p>
-                A 2D action game based on mathematical additions in a Christmas
-                environment.
+                App hosting seasonal fishing tournaments with medals, avatars,
+                and profile customization.
               </p>
-              <Link to="/portfolio/santas" className="info">
+              <Link to="/portfolio/artkampen" className="info">
                 VIEW
               </Link>
             </div>

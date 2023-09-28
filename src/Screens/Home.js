@@ -13,8 +13,10 @@ export function Home() {
       style={{
         backgroundColor: "hsla(186, 90%, 80%, 0.2)",
         overflow: "hidden",
+        position: "relative",
       }}
     >
+      <div className="menu-overlay"></div>
       <Header />
       <Main />
       <div>

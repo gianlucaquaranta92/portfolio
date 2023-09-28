@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+
+body {
+position: relative;
+}
+
+body.menu-open {
+  overflow: hidden;
+  height: 100%;
+}
+
 .links .header-links {
   animation: down 1s normal;
   text-decoration: none !important;
@@ -196,7 +206,7 @@ img {
     display: none !important;
   }
   .barmenu {
-    display: block;
+    display: flex;
   }
   .picture {
     width: 70% !important;

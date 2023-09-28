@@ -33,7 +33,7 @@ export function Main() {
           >
             -a Web developer with a deep passion for Front-End
           </h1>
-          <span style={{ fontSize: 16, opacity: 0.5 }}>
+          <span style={{ fontSize: 16, color: "#8d8d98" }}>
             Armed with sharp problem-solving abilities and a proactive approach
             to front-end challenges
           </span>

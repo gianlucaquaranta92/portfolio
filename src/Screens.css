@@ -89,10 +89,21 @@ gap: 2rem;
     z-index: 999;
 }
 
-.front-page {
-
-
+ .menu-overlay {
+height: 100%;
+width: 100%;
+left: 0;
+top:0;
+background: black;
+opacity: 0;
+position: absolute;
+transition-duration: .3s;
 }
+
+.menu-open .menu-overlay {
+  opacity: .7;
+  z-index: 99;
+  }
 
 /* CSS */
 .header.sticky {
