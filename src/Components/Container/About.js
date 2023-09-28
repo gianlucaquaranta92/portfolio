@@ -20,18 +20,18 @@ export function About() {
             <strong>About Me</strong>
           </h3>
           <p style={{ margin: 0, color: "" }}>
-            Hi, I'm Gianluca, I'm an Italian guy that four years ago moved with
-            my girlfriend to this beautiful country called Sweden.
+            Hi, I'm Gianluca, I'm an Italian guy that 7 years ago moved with my
+            girlfriend to this beautiful country called Sweden.
             <br />
-            After many years and different jobs, I realized that I wasn't
-            satisfied and so in January 2020 I started studying on Codecademy to
-            become a web developer <br />
+            in January 2020 I started my coding journey with a course on
+            Codecademy about HTML+CSS+JS and then i learned React. <br />
             <br />
-            In March 2022 I started my current job as a web developer at Tankbar
-            AB in Nyköping.
+            In March 2021 I started my first job as a web developer, where I've
+            since become more proficient in WordPress and PHP.
             <br />
-            Since then it's been a continued improvement of my soft skills and
-            knowledge regarding WordPress and PHP.
+            In october 2021 i started my current job as web developer at Tankbar
+            AB. Since then it's been a continued improvement of my soft skills
+            and knowledge regarding WordPress and PHP.
           </p>
         </div>
       </div>
