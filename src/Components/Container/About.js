@@ -2,16 +2,16 @@ import React from "react";
 
 export function About() {
   return (
-    <div>
+    <div id="about">
       <div
-        className="row "
+        className="row"
         style={{
           marginTop: "2rem",
           marginBottom: "4rem",
         }}
       >
         <div
-          className=" col-xl-7 "
+          className=""
           style={{
             width: "100%",
           }}

@@ -38,10 +38,14 @@ export function Main() {
             to front-end challenges
           </span>
           <div style={{ marginTop: 32, marginBottom: 40 }}>
-            <a style={{ marginRight: 16 }} className="buttonBlack" href="">
+            <a
+              style={{ marginRight: 16 }}
+              className="buttonBlack"
+              href="#contact"
+            >
               Contact me
             </a>
-            <a className="buttonWhite" href="">
+            <a className="buttonWhite" href="#projects">
               See my work
             </a>
           </div>
