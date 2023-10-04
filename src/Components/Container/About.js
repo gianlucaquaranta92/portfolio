@@ -41,8 +41,8 @@ export function About() {
           my girlfriend. Now, we have two wonderful kids.
           <br />
           <br />
-          In 2020, I began my coding journey with HTML, CSS, JS, and later,
-          React on Codecademy.
+          In 2020, I began my coding journey with a course on Codecademy about
+          HTML+CSS+JS and later, i learned React.
           <br />
           By March 2021, I embarked on my web developer career, sharpening my
           skills in WordPress and PHP.
