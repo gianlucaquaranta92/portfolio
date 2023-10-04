@@ -21,11 +21,10 @@ export function Container() {
           className="col-10  col-xl-9 col-lg-11 col-md-11 col-sm-10"
           style={{ backgroundColor: "" }}
         >
+          <About />
           <ProvideValues />
           <Projects />
           <Skills />
-          <About />
-        
         </div>
 
         <div className="col " />

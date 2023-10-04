@@ -7,6 +7,8 @@ body {
 h1 {
   margin-block-start: 50px;
   font-size: 70px;
+  font-size: 38px;
+  line-height: 1.4;
 }
 
 h3 {
@@ -63,10 +65,15 @@ gap: 2rem;
   background-color: rgb(95, 212, 228) !important;
   transition: 0.7s;
 }
+
 @media (max-width: 875px) {
 
   h1 {
-    font-size: 35px;
+    font-size: 29px;
+  }
+
+  h3 {
+    font-size: 24px;
   }
 
 
@@ -79,6 +86,25 @@ gap: 2rem;
      width: 100%;
      padding: 1rem;
     }
+}
+
+@media (max-width: 768px) {
+
+  #about {
+    padding: 0 !important
+  }
+
+  .about-me {
+  flex-direction: column;
+  }
+
+  .about-me div{
+   width: 100% !important;
+   padding: 2rem 1rem !important;
+    }
+
+
+
 }
 
 

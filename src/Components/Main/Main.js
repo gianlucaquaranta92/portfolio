@@ -18,25 +18,19 @@ export function Main() {
           style={{ margin: "auto" }}
           className="col-xl-5  col-lg-12 col-md-12  col-sm-12 title"
         >
-          <h2 style={{ fontSize: 24, marginBottom: 22 }}>
-            Hey there, I'm Gianluca Quaranta
-          </h2>
+          <h2 style={{ fontSize: 24, marginBottom: 22 }}></h2>
           <h1
             style={{
               color: "",
               marginTop: -10,
               marginBottom: 16,
-              fontSize: 38,
-              lineHeight: 1.4,
               fontWeight: 600,
             }}
           >
-            -a Web developer with a deep passion for Front-End
+            Hey there,<span style={{ color: "orange" }}> I'm Gianluca</span>
+            <br /> -a Web developer with a deep passion for Front-End
           </h1>
-          <span style={{ fontSize: 16, color: "#8d8d98" }}>
-            Armed with sharp problem-solving abilities and a proactive approach
-            to front-end challenges
-          </span>
+
           <div style={{ marginTop: 32, marginBottom: 40 }}>
             <a
               style={{ marginRight: 16 }}
