@@ -12,7 +12,7 @@ export function Problems() {
       >
         <img
           style={{ width: "100%", maxWidth: "500px", maxHeight: "500px" }}
-          src="https://i.ibb.co/NypPTnf/meme-code2.jpg"
+          src="https://i.ibb.co/ZgN3DFT/developer-image.webp"
           alt=""
         />
       </div>

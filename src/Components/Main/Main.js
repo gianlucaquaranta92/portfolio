@@ -29,7 +29,7 @@ export function Main() {
           >
             Hey there,<span style={{ color: "orange" }}> I'm Gianluca</span>
             <br /> -an experienced PHP/Wordpress developer with a passion for
-            Front-End
+            Frontend
           </h1>
 
           <div style={{ marginTop: 32, marginBottom: 40 }}>

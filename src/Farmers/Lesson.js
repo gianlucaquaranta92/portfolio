@@ -8,7 +8,7 @@ export function Lesson() {
         className="col-10 col-xl-6"
         style={{ textAlign: "center", marginBottom: 200 }}
       >
-        <h3 style={{ marginTop: 100, marginBottom: 50 }}>lessons learned</h3>
+        <h3 style={{ marginTop: 100, marginBottom: 50 }}>Lessons learned</h3>
         <p>
           The main lesson I learned from this project underscores the importance
           of communication, not only with the customer but also with the

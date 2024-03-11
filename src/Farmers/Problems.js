@@ -6,7 +6,7 @@ export function Problems() {
       <div className=" col-xl-6 col-lg-6">
         <img
           style={{ width: "100%" }}
-          src="https://i.ibb.co/RNYZYvk/meme-codie5.jpg"
+          src="https://i.ibb.co/ZgN3DFT/developer-image.webp"
           alt=""
         />
       </div>
