@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Projects.css";
 import { Link } from "react-router-dom";
 
@@ -22,24 +23,6 @@ export function Projects() {
           <div className="view view-first">
             <img
               alt=""
-              src="https://i.imgur.com/CpvvCLJ.png"
-              style={{ width: 300, height: 300 }}
-            />
-            <div className="mask">
-              <h2>Santa's Factory</h2>
-              <p>
-                A 2D action game based on mathematical additions in a Christmas
-                environment.
-              </p>
-              <Link to="/portfolio/santas" className="info">
-                VIEW
-              </Link>
-            </div>
-          </div>
-
-          <div className="view view-first">
-            <img
-              alt=""
               src="https://i.ibb.co/2SJXmnD/Screenshot-2024-03-10-at-21-54-35.png"
               style={{ width: "100%", height: "100%", objectFit: "contain" }}
             />
@@ -55,13 +38,38 @@ export function Projects() {
             </div>
           </div>
           <div className="view view-first">
-            <img alt="" src="https://i.ibb.co/Lk0061c/sverige500logo.png" />
+            <img
+              alt=""
+              src="https://i.imgur.com/CpvvCLJ.png"
+              style={{ width: 300, height: 300 }}
+            />
             <div className="mask">
-              <h2>Sverige 500 år</h2>
+              <h2>Santa's Factory</h2>
               <p>
-                Webb-app with full custom audio player built using JavaScript.
+                A 2D action game based on mathematical additions in a Christmas
+                environment.
               </p>
-              <Link to="/portfolio/sverige500" className="info">
+              <Link to="/portfolio/santas" className="info">
+                VIEW
+              </Link>
+            </div>
+          </div>
+          <div
+            style={{ borderColor: "rgba(0, 0, 0, 0.9)" }}
+            className="view view-first"
+          >
+            <img
+              style={{ objectFit: "contain" }}
+              alt=""
+              src="https://i.ibb.co/9rv7fL6/logo-artkampen.png"
+            />
+            <div className="mask">
+              <h2>Artkampen</h2>
+              <p>
+                App hosting seasonal fishing tournaments with medals, avatars,
+                and profile customization.
+              </p>
+              <Link to="/portfolio/artkampen" className="info">
                 VIEW
               </Link>
             </div>

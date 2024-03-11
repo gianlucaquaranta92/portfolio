@@ -43,7 +43,7 @@ export function Description() {
             style={{ width: "100%" }}
           />
         </div>
-        <h3 style={{ marginBottom: 50 }}>Project Purpose and Goal</h3>
+        <h3 style={{ marginBottom: "1rem" }}>Project Purpose and Goal</h3>
         <p style={{ marginBottom: 50 }}>
           The goal for Sportfiskarna for this year's competition was to
           introduce competitions within the competition, aiming to encourage,

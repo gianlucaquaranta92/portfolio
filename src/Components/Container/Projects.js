@@ -6,7 +6,7 @@ export function Projects() {
     <div id="projects">
       <div>
         <h3 style={{ marginTop: 100, marginBottom: "1rem" }}>
-          What I've been working on
+          Some of my projects
         </h3>
         <p style={{ marginBottom: 70 }}>
           I like to stay busy and always have a project in the works. Take a
@@ -19,21 +19,17 @@ export function Projects() {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-around",
+          gap: 24,
         }}
       >
         <div className="view view-first">
-          <img
-            alt=""
-            src="https://i.imgur.com/CpvvCLJ.png"
-            style={{ width: 300, height: 300 }}
-          />
+          <img alt="" src="https://i.ibb.co/Lk0061c/sverige500logo.png" />
           <div className="mask">
-            <h2>Santa's Factory</h2>
+            <h2>Sverige 500 år</h2>
             <p>
-              A 2D action game based on mathematical additions in a Christmas
-              environment.
+              Webb-app with full custom audio player built using JavaScript.
             </p>
-            <Link to="/portfolio/santas" className="info">
+            <Link to="/portfolio/sverige500" className="info">
               VIEW
             </Link>
           </div>
@@ -51,6 +47,42 @@ export function Projects() {
               profile customization.
             </p>
             <Link to="/portfolio/artkampen" className="info">
+              VIEW
+            </Link>
+          </div>
+        </div>
+
+        <div className="view view-first">
+          <img
+            alt=""
+            src="https://i.ibb.co/2SJXmnD/Screenshot-2024-03-10-at-21-54-35.png"
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+          <div className="mask">
+            <h2>Farmers & Chefs</h2>
+            <p>
+              A website that promotes theyr own vegan products and where to find
+              them.
+            </p>
+            <Link to="/portfolio/farmers" className="info">
+              VIEW
+            </Link>
+          </div>
+        </div>
+
+        <div className="view view-first">
+          <img
+            alt=""
+            src="https://i.imgur.com/CpvvCLJ.png"
+            style={{ width: 300, height: 300 }}
+          />
+          <div className="mask">
+            <h2>Santa's Factory</h2>
+            <p>
+              A 2D action game based on mathematical additions in a Christmas
+              environment.
+            </p>
+            <Link to="/portfolio/santas" className="info">
               VIEW
             </Link>
           </div>

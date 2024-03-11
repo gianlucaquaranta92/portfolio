@@ -10,8 +10,8 @@ export function Problems() {
           alt=""
         />
       </div>
-      <div className=" col-xl-6 col-lg-6">
-        <h3 style={{ marginBottom: 50 }}>Problems and Thought Process</h3>
+      <div className="mobile-margin-top col-xl-6 col-lg-6">
+        <h3 style={{ marginBottom: "1rem" }}>Problems and Thought Process</h3>
         <p>
           The design was quite simple but was the very first time I worked with
           API and the hardest part was handling the research with the filters.

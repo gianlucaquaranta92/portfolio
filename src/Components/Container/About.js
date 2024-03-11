@@ -24,8 +24,8 @@ export function About() {
         }}
       >
         <h3 style={{ maxWidth: "450px" }}>
-          Armed with sharp problem-solving abilities and a proactive approach to
-          front-end challenges
+          I ensure the customer's expectations are consistently met by viewing
+          my work from their perspective.
         </h3>
       </div>
       <div

@@ -28,7 +28,8 @@ export function Main() {
             }}
           >
             Hey there,<span style={{ color: "orange" }}> I'm Gianluca</span>
-            <br /> -a Web developer with a deep passion for Front-End
+            <br /> -an experienced PHP/Wordpress developer with a passion for
+            Front-End
           </h1>
 
           <div style={{ marginTop: 32, marginBottom: 40 }}>
@@ -57,7 +58,7 @@ export function Main() {
             className="foto"
             style={{ marginTop: 0 }} //backgroundImage:'URL(https://rel.ink/kXWQKe)'}}
             alt=""
-            src="https://cdn.discordapp.com/attachments/165746589309206528/730423597243564122/IO_senza_sfondo2.png"
+            src="https://i.ibb.co/p478B12/IO-senza-sfondo2.png"
           />
         </div>
         <div className="col" />

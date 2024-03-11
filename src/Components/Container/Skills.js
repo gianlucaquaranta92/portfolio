@@ -5,7 +5,7 @@ export function Skills() {
       <div className="col-12 " style={{ marginLeft: -20 }}>
         <h3 style={{ marginBottom: "1rem" }}>My Skills</h3>
         <p>
-          Through my studies, starting with React, I've gained a good understanding of computer
+          Through my studies, I've gained a good understanding of computer
           science and web development concepts,and from different work
           experiences, I learned new languages such as PHP and new systems such
           as WordPress and woocommerce.

@@ -6,7 +6,7 @@ export function Problems() {
       <div className=" col-xl-6 col-lg-6">
         <img
           style={{ width: "100%" }}
-          src="https://cdn.discordapp.com/attachments/165746589309206528/757955068682043483/undraw_goals_w8tw_2.png"
+          src="https://i.ibb.co/RNYZYvk/meme-codie5.jpg"
           alt=""
         />
       </div>
@@ -20,11 +20,11 @@ export function Problems() {
       >
         <h3 style={{ marginBottom: "1rem" }}>Problems and Thought Process</h3>
         <p>
-          I made the pokedèx almost entirely with Photoshop and used it as
-          background image, so place every component to its place made me code a
-          lot of hard code and didn't help when I had to optimize for smaller
-          screen sizes.
-          <br />
+          Throughout the coding process, I maintained a sense of control over
+          the project and its various phases. The only obstacle I encountered
+          was about the product slider due to image size discrepancies.
+          Consequently, I requested the customer to provide images in a
+          consistent format.
         </p>
       </div>
     </div>

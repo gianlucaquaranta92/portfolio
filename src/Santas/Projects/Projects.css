@@ -6,9 +6,7 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: pointer;
   background: hsl(0, 0%, 100%);
-  margin: 40px 10px;
 }
 .view .mask,
 .view .content {

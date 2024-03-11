@@ -6,12 +6,19 @@ export function Problems() {
       <div className=" col-xl-6 col-lg-6">
         <img
           style={{ width: "100%" }}
-          src="https://cdn.discordapp.com/attachments/165746589309206528/757681224289484940/undraw_goals_w8tw_1.png"
+          src="https://i.ibb.co/Z1prm5T/code-meme6.jpg"
           alt=""
         />
       </div>
-      <div className=" col-xl-6 col-lg-6">
-        <h3 style={{ marginBottom: 50 }}>Problems and Thought Process</h3>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+        className="mobile-margin-top col-xl-6 col-lg-6"
+      >
+        <h3 style={{ marginBottom: "1rem" }}>Problems and Thought Process</h3>
         <p>
           I choose Phaser3 for this project because it seemed to be the best 2D
           game framework used for making HTML5 games for desktop and mobile.

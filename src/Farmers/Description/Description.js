@@ -11,19 +11,13 @@ export function Description() {
       <div className="col-10  col-xl-9 col-lg-11 col-md-11 col-sm-10 description">
         <h1 style={{ marginTop: 150, marginBottom: 50 }}>Santa's Factory</h1>
         <p style={{ marginBottom: 50 }}>
-          Santa's Factory is a 2D videogame focused on additions, with just the
-          right amount of action and logic.
-          <br />
-          The player will control a workshop elf to deliver as many presents as
-          he can into the right tubes in less than 60 seconds.
-          <br />
-          There will be random additions at the bottom of the screen, the elf
-          will pick up the presents from the big present's bag and then deliver
-          it to the tube with the right solution.
+          Farmers and Chefs is a website showcasing and describing their vegan
+          products and where you can find them in supermarkets. It displays
+          single product pages, ingredients, and recipes.
         </p>
         <a
           style={{ textDecoration: "none", marginLeft: 30 }}
-          href="https://santas.gianluca.website/"
+          href="https://farmersandchefs.se/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -39,21 +33,17 @@ export function Description() {
         >
           <img
             alt=""
-            src="https://i.imgur.com/cylIIfg.png"
+            src="https://i.ibb.co/SNQFD55/Screenshot-2024-03-11-at-08-20-57.png"
             style={{ width: "100%" }}
           />
         </div>
         <h3 style={{ marginBottom: "1rem" }}>Project Purpose and Goal</h3>
         <p style={{ marginBottom: 50 }}>
-          The goal was to create a game where the player would keep the focus on
-          the additions but never get bored.
-          <br />
-          I'm a player myself and I thought having a score and a cooldown timer
-          would add the right pressure and entertainment, to challenge the
-          player to do better each time he restarted the game.
-          <br />
-          That process will automatically improve his mathematics skills, his
-          mental habits of logic, and tenacity.
+          The purpose of the Farmers and Chefs website is to promote and
+          facilitate access to their range of vegan products in supermarkets.
+          The goal is to provide a comprehensive platform where users can
+          explore individual product details, including ingredients and recipes,
+          fostering a deeper connection to plant-based eating.
         </p>
         <Problems />
       </div>
