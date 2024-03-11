@@ -15,7 +15,8 @@ export function Projects() {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-around",
-            marginBottom: 100
+            marginBottom: 100,
+            gap: 24,
           }}
         >
           <div className="view view-first">

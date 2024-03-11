@@ -8,7 +8,7 @@ export function Description() {
       <div className="col-1 col-xl-2"></div>
       <div className="col-10 col-xl-8 description">
         <h1 style={{ marginTop: 150, marginBottom: 50 }}>Pokedèx</h1>
-        <p style={{ marginBottom: 50 }}>
+        <p style={{ marginBottom: "1rem" }}>
           Pokedèx is the reproduction of the Pokèmon's encyclopedia wich store
           all the existing Pokèmons.
           <br />
@@ -28,7 +28,7 @@ export function Description() {
             boxShadow: "0px 10px 15px 2px rgb(120, 120, 120)",
             marginBottom: 150,
             width: "100%",
-            marginTop: 100
+            marginTop: 100,
           }}
         >
           <img
@@ -37,8 +37,8 @@ export function Description() {
             style={{ width: "100%" }}
           />
         </div>
-        <h3 style={{ marginBottom: 50 }}>Project Purpose and Goal</h3>
-        <p style={{ marginBottom: 50 }}>
+        <h3 style={{ marginBottom: "1rem" }}>Project Purpose and Goal</h3>
+        <p style={{ marginBottom: "1rem" }}>
           The Pokedèx allows the users to find information about each and every
           Pokèmon, writing the name or pick up a number. With the 'Play' button
           the Pokedèx will speak and explain all the information about the

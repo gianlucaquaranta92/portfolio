@@ -29,7 +29,7 @@ export function Description() {
             boxShadow: "0px 10px 15px 2px rgb(120, 120, 120)",
             marginBottom: 150,
             width: "100%",
-            marginTop: 100
+            marginTop: 100,
           }}
         >
           <img
@@ -38,7 +38,7 @@ export function Description() {
             style={{ width: "100%" }}
           />
         </div>
-        <h3 style={{ marginBottom: 50 }}>Project Purpose and Goal</h3>
+        <h3 style={{ marginBottom: "1rem" }}>Project Purpose and Goal</h3>
         <p style={{ marginBottom: 50 }}>
           The challenge was to integrate with the Yelp API to find businesses
           using three different filters. Once the businesses are found the user
