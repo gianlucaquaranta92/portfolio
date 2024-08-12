@@ -1,7 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #1E1E1E;
-  ;
+  font-family: "Roboto", sans-serif;
+  color: #1e1e1e;
 }
 
 h1 {
@@ -13,13 +12,13 @@ h1 {
 
 h3 {
   font-size: 32px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -29,31 +28,33 @@ p {
   letter-spacing: 0.05em;
 }
 
-h1,h2,h3,h4,h5    {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .icon {
-height: 32px;
-width: 32px;
-margin-bottom: 1rem;
+  height: 32px;
+  width: 32px;
+  margin-bottom: 1rem;
 }
 
 .icon svg {
   height: 100%;
   width: 100%;
-
 }
 .puffsContainer {
-display: flex;
-margin-top: 2.5rem;
-gap: 2rem;
-
+  display: flex;
+  margin-top: 2.5rem;
+  gap: 2rem;
 }
 
-.singleValuePuff{
-  background: #F7F7FA;
+.singleValuePuff {
+  background: #f7f7fa;
   border-radius: 8px;
   padding: 2rem;
   width: 32%;
@@ -67,7 +68,6 @@ gap: 2rem;
 }
 
 @media (max-width: 875px) {
-
   h1 {
     font-size: 29px;
   }
@@ -76,64 +76,57 @@ gap: 2rem;
     font-size: 24px;
   }
 
-
   .puffsContainer {
-  flex-wrap: wrap;
-    
-    }
+    flex-wrap: wrap;
+  }
 
-    .singleValuePuff{
-     width: 100%;
-     padding: 1rem;
-    }
+  .singleValuePuff {
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
-
   #about {
-    padding: 0 !important
+    padding: 0 !important;
   }
 
   .about-me {
-  flex-direction: column;
+    flex-direction: column;
   }
 
-  .about-me div{
-   width: 100% !important;
-   padding: 2rem 1rem !important;
-    }
-
-
-
+  .about-me div {
+    width: 100% !important;
+    padding: 2rem 1rem !important;
+  }
 }
-
 
 .header {
   width: 100%;
   display: flex;
-  box-shadow: 0px 0 0  black;
-  transition-duration: .3s;
+  box-shadow: 0px 0 0 black;
+  transition-duration: 0.3s;
   position: fixed;
-    right: 0;
-    width: 100%;
-    z-index: 999;
+  right: 0;
+  width: 100%;
+  z-index: 999;
 }
 
- .menu-overlay {
-height: 100%;
-width: 100%;
-left: 0;
-top:0;
-background: black;
-opacity: 0;
-position: absolute;
-transition-duration: .3s;
+.menu-overlay {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: black;
+  opacity: 0;
+  position: absolute;
+  transition-duration: 0.3s;
 }
 
 .menu-open .menu-overlay {
-  opacity: .7;
+  opacity: 0.9;
   z-index: 99;
-  }
+}
 
 /* CSS */
 .header.sticky {
@@ -141,16 +134,15 @@ transition-duration: .3s;
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   box-shadow: 0px -11px 18px black;
 }
 
+.logo a {
+  color: #1e1e1e;
+}
 
-.logo a{
-  color: #1E1E1E;
-  }
-
-.logo a:hover{
-text-decoration: none;
-color: #1E1E1E;
+.logo a:hover {
+  text-decoration: none;
+  color: #1e1e1e;
 }

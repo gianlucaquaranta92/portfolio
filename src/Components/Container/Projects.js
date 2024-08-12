@@ -6,7 +6,7 @@ export function Projects() {
     <div id="projects">
       <div>
         <h3 style={{ marginTop: 100, marginBottom: "1rem" }}>
-          Some of my projects
+          50+ Projects: A Few to Showcase
         </h3>
         <p style={{ marginBottom: 70 }}>
           I like to stay busy and always have a project in the works. Take a

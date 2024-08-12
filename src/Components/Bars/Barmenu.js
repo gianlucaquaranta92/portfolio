@@ -4,12 +4,19 @@ export function BarMenu() {
   const [menu, setMenu] = useState(false);
 
   function toggleMenu() {
-    if (menu) {
-      setMenu(false);
-      document.body.classList.remove("menu-open");
-    } else {
-      setMenu(true);
-      document.body.classList.add("menu-open");
+    setMenu(!menu);
+    document.body.classList.toggle("menu-open", !menu);
+  }
+
+  function handleMenuClick() {
+    setMenu(false);
+    document.body.classList.remove("menu-open");
+  }
+
+  function handleOverlayClick(e) {
+    // Close the menu only if the user clicks on the overlay, not the menu itself
+    if (e.target.className === "menu-overlay") {
+      handleMenuClick();
     }
   }
 
@@ -26,7 +33,7 @@ export function BarMenu() {
         style={{
           marginTop: 20,
           marginBottom: 10,
-          marginLeft: " auto",
+          marginLeft: "auto",
           width: 50,
           height: 35,
           cursor: "pointer",
@@ -36,33 +43,48 @@ export function BarMenu() {
         <div className="menu"></div>
         <div className="menu"></div>
       </div>
-      {menu ? (
+      {menu && (
         <div
+          className="menu-overlay"
           style={{
-            backgroundColor: "hsla(186, 90%, 80%, 90%)",
-            position: "absolute",
-            padding: 40,
-            borderRadius: 8,
-            textAlign: "center",
-            fontWeight: 500,
-            display: "flex",
-            flexDirection: "column",
-            width: "100%",
+            position: "fixed",
+            top: 0,
             left: 0,
-            top: "5rem",
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.5)", // semi-transparent black overlay
+            zIndex: 9999,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
           }}
+          onClick={handleOverlayClick}
         >
-          <a href="/#about">
-            <span>About</span>
-          </a>
-          <a href="/#projects">
-            <span>Projects</span>
-          </a>
-          <a href="/#contact">
-            <span>Contact</span>
-          </a>
+          <div
+            style={{
+              backgroundColor: "hsla(186, 90%, 80%, 90%)",
+              padding: 40,
+              borderRadius: 8,
+              textAlign: "center",
+              fontWeight: 500,
+              display: "flex",
+              flexDirection: "column",
+              width: "80%",
+              maxWidth: "400px",
+            }}
+          >
+            <a href="/#about" onClick={handleMenuClick}>
+              <span>About</span>
+            </a>
+            <a href="/#projects" onClick={handleMenuClick}>
+              <span>Projects</span>
+            </a>
+            <a href="/#contact" onClick={handleMenuClick}>
+              <span>Contact</span>
+            </a>
+          </div>
         </div>
-      ) : null}
+      )}
     </div>
   );
 }
