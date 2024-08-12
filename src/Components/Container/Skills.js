@@ -26,11 +26,13 @@ export function Skills() {
           <li>HTML & CSS</li>
           <li>Javascript</li>
           <li>JQuery</li>
+          <li>MySql</li>
         </div>
         <div style={{ margin: "-20px 10px -20px 10px" }}>
           <li>SCSS</li>
           <li>React</li>
           <li>Tailwind</li>
+          <li>NGINX</li>
         </div>
 
         <div style={{ margin: "-20px 10px -20px 10px" }}>
