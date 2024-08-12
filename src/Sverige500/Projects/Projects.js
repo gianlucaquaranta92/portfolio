@@ -28,10 +28,7 @@ export function Projects() {
             />
             <div className="mask">
               <h2>Farmers & Chefs</h2>
-              <p>
-                A website that promotes theyr own vegan products and where to
-                find them.
-              </p>
+              <p>A website that promotes theyr own vegan products.</p>
               <Link to="/portfolio/farmers" className="info">
                 VIEW
               </Link>
@@ -65,10 +62,7 @@ export function Projects() {
             />
             <div className="mask">
               <h2>Artkampen</h2>
-              <p>
-                App hosting seasonal fishing tournaments with medals, avatars,
-                and profile customization.
-              </p>
+              <p>App hosting seasonal fishing tournaments.</p>
               <Link to="/portfolio/artkampen" className="info">
                 VIEW
               </Link>

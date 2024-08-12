@@ -31,10 +31,7 @@ export function Projects() {
             />
             <div className="mask">
               <h2>Artkampen</h2>
-              <p>
-                App hosting seasonal fishing tournaments with medals, avatars,
-                and profile customization.
-              </p>
+              <p>App hosting seasonal fishing tournaments.</p>
               <Link to="/portfolio/artkampen" className="info">
                 VIEW
               </Link>
